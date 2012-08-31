@@ -8,9 +8,17 @@
   %body
     = yield
     #credits
-      Github
+      This 
+      %a{:href => "https://github.com/nemilya/todomvc-sammyjs-coffee"} CoffeeScript version
+      by 
       %br/
-      %a{:href => "https://github.com/nemilya/todomvc-sammyjs-coffee"} todomvc-sammyjs-coffee
+      Nemilya
+      %br/
+      based on code
+      Addy Osmani 
+      %br/
+      based on some code by Brandon Aaron
+      
     %script{:src => "/js/jquery.min.js"}
     %script{:src => "/js/coffee-script.js"}
     %script{:src => "/js/lib/sammy.js"}
