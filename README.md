@@ -1,8 +1,9 @@
 Sammy.js TodoMVC app
 ====================
 
+Demo: http://todomvc-sammyjs-coffee.cloudfoundry.com/
 
-Based on: https://github.com/addyosmani/todomvc/
+Based on: https://github.com/addyosmani/todomvc/tree/gh-pages/labs/architecture-examples/sammyjs
 
 Credits:
 
