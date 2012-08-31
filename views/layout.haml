@@ -1,0 +1,21 @@
+<!doctype html>
+%html
+  %head
+    %meta{:charset => "utf-8"}
+      %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+        %title Sammy.js • TodoMVC
+        %link{:href => "/css/app.css", :rel => "stylesheet"}
+  %body
+    = yield
+    #credits
+      This version by
+      %br/
+      %a{:href => "http://twitter.com/addyosmani"} Addy Osmani
+      %br/
+      based on some code by Brandon Aaron
+    %script{:src => "/js/jquery.min.js"}
+    %script{:src => "/js/coffee-script.js"}
+    %script{:src => "/js/lib/sammy.js"}
+    %script{:src => "/js/lib/plugins/sammy.template.js"}
+    %script{:src => "/app/model.coffee", :type => "text/coffeescript"}
+    %script{:src => "/app/app.coffee", :type => "text/coffeescript"}

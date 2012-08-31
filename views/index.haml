@@ -1,0 +1,9 @@
+#todoapp
+  .title
+    %h1{:contenteditable => "true"} todos
+  .content
+    #create-todo
+      %input#new-todo{:placeholder => "What needs to be done?", :type => "text"}
+    #todos
+      %ul#todo-list
+    #todo-stats
